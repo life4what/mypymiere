@@ -83,8 +83,9 @@ def exe_is_running(exe_name):
     pids = _get_pids_from_name(exe_name)
     if len(pids) == 0:
         return False, None
-    if len(pids) > 1:
-        raise OSError("More than one process matching name '{}' were found running (pid: {})".format(exe_name, pids))
+    # if len(pids) > 1:
+    #     raise OSError("More than one process matching name '{}' were found running (pid: {})".format(exe_name, pids))
+
     return True, pids[0]
 
 
