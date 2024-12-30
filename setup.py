@@ -1,7 +1,7 @@
 import os
 from setuptools import setup, find_packages
 
-NAME = "mypymiere"
+NAME = "pymiere"
 URL = 'https://github.com/life4what/{}'.format(NAME)
 VERSION = "1.4.1"
 
