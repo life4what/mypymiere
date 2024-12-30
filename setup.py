@@ -2,7 +2,7 @@ import os
 from setuptools import setup, find_packages
 
 NAME = "mypymiere"
-URL = 'https://github.com/qmasingarbe/{}'.format(NAME)
+URL = 'https://github.com/life4what/{}'.format(NAME)
 VERSION = "1.4.1"
 
 with open(os.path.join(os.path.dirname(__file__), "README.md"), "r") as f:
