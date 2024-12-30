@@ -1,7 +1,7 @@
 import os
 from setuptools import setup, find_packages
 
-NAME = "pymiere"
+NAME = "mypymiere"
 URL = 'https://github.com/qmasingarbe/{}'.format(NAME)
 VERSION = "1.4.1"
 
