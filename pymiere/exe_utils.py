@@ -86,7 +86,14 @@ def exe_is_running(exe_name):
     # if len(pids) > 1:
     #     raise OSError("More than one process matching name '{}' were found running (pid: {})".format(exe_name, pids))
 
-    return True, pids[0]
+    # get the smallest id from pids
+    pid = pids[0]
+
+    for a_pid in pids:
+        if a_pid < pid:
+            pid = a_pid
+
+    return True, pid # pids[0]
 
 
 def count_running_exe(exe_name):
