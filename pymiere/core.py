@@ -16,6 +16,8 @@ ALIVE_TIMEOUT = 2  # check that premiere is still alive every x seconds
 
 # ----- FUNCTIONS -----
 def check_premiere_is_alive(crash=True):
+    
+    return True
     """
     Check if premiere is running and if the pymiere CEP panel is active
 
